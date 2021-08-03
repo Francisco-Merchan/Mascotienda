@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #2845c8;
+}
+
+h5,
+.mascotienda-brand,
+.btn-prim,
+.top-tile,
+.nov-title,
+.card-section-title,
+.product-price,
+.cover-title,
+.product-food-title,
+.subtext-food {
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+.searchbox {
+  font-size: 0.8rem;
+}
+
+.btn-sec {
+  color: #021231;
+  background-color: #8395ee;
+  border: none;
+}
+
+.btn-sec:hover {
+  background-color: #acbaff;
+}
+
+.login-text,
+.login-text:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-prim {
+  background-color: #f59c33;
+  border: none;
+}
+
+.btn-prim:hover {
+  background-color: #ffbd42;
+  color: #021231;
+  border: none;
+}
+
+.modal-title,
+.forgotten-password {
+  color: #021231;
+}
+
+.img-subscription {
+  width: 30%;
+  height: auto;
+}
+
+.benefits {
+  list-style-type: none;
+}
+
+label {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+input {
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #8a9cf5;
+  font-size: 0.7rem;
+  padding: 3px;
+}
+
+.terms,
+.newsletter {
+  width: auto;
+}
+
+.agree {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.hero-section img {
+  width: 100vh;
+  min-width: 320px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.top-tile,
+.nov-title {
+  font-size: 2rem;
+}
+
+.top-sales-items article,
+.novelties-items article {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.carousel-caption h5 {
+  width: auto;
+  font-size: 2.3rem;
+}
+
+.most-view {
+  background-color: #cfd7ff;
+}
+
+.most-view img {
+  border-radius: 5px 0 0 5px;
+}
+
+.most-view span {
+  height: 25px;
+  font-size: 0.7rem;
+}
+
+article:hover,
+article:focus,
+article:active {
+  -webkit-transform: scale(1) rotate(1deg);
+  transform: scale(1) rotate(1deg);
+}
+
+.product-section,
+.login-background,
+.img-background {
+  background-color: #8a9cf5;
+  background-image: url(./Assets/recurso.png);
+  width: 100%;
+  height: auto;
+}
+
+.product-section-p {
+  padding-bottom: 50px;
+}
+
+.cards-container-product {
+  padding: 30px 0 80px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  width: 270px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+}
+.product-card:hover,
+.food-cardp:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.text-body-card {
+  height: 48px;
+}
+
+.product-card img {
+  width: 270px;
+  height: 198.36px;
+  border-radius: 8px 8px 0 0;
+}
+
+.badge {
+  width: auto;
+  height: 20px;
+  font-size: 14px;
+}
+
+.space-card {
+  padding: 16px;
+}
+
+.container-video {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-video-text {
+  position: absolute;
+  top: 80%;
+}
+
+.cover-title {
+  font-size: 1.8rem;
+}
+
+.product-img {
+  max-width: 450px;
+  max-height: 450px;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.food-card {
+  background: #ffffff;
+  padding: 10px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.food-cardp {
+  padding: 10px;
+  margin: auto;
+  width: 338px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.food-cardp {
+  width: 300px;
+}
+
+.product-food-title {
+  color: #2845c8;
+  text-align: center;
+  font-size: 3.8rem;
+}
+
+.subtext-food {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.payment-background {
+  padding: 6px;
+  width: 285px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-detail {
+  list-style-type: none;
+  width: 80%;
+  margin: auto;
+  font-size: 1.05rem;
+}
+
+.bg {
+  background-image: url(./Assets/image_login.jpg);
+  background-position: center;
+}
+
+.card-login {
+  height: 80%;
+}
+
+.align-text-button {
+  width: 130px;
+}
+
+.btn-shop {
+  width: 100%;
+}
+
+.textarea-properties {
+  margin: 0 auto;
+  width: 60%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.btn-form-width {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.comment-section-published {
+  border-radius: 16px;
+}
+
+.name-star {
+  width: 70%;
+}
+
+.star-img {
+  background-image: url(./Assets/star1.png);
+}
+
+.star-img1 {
+  background-image: url(./Assets/star2.png);
+}
+
+.star-img,
+.star-img1 {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20px;
+}
+
+.profile-img,
+.profile-img1,
+.profile-img2,
+.profile-img3,
+.profile-img4 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.profile-img {
+  background-image: url(./Assets/Ellipse1.png);
+}
+
+.profile-img1 {
+  background-image: url(./Assets/Ellipse3.png);
+}
+
+.profile-img2 {
+  background-image: url(./Assets/Ellipse4.png);
+}
+
+.profile-img3 {
+  background-image: url(./Assets/Ellipse2.png);
+}
+
+.profile-img4 {
+  background-image: url(./Assets/Ellipse5.png);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(0.9);
+}
+
+.photo-group1,
+.members-names1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-group1 {
+  padding: 50px 10px 16px;
+}
+
+.photo-group2 {
+  padding: 25px 10px 16px;
+}
+
+.members-names1 {
+  padding: 0 10px;
+}
+
+.members-names2,
+.photo-group2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #2845c8;
+  width: 100%;
+  height: auto;
+}
+
+.Mascotienda-logo {
+  width: 65px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+li a {
+  color: beige;
+}
+
+.social1,
+.social2,
+.social3 {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.social1 {
+  background-image: url(./Assets/facebook.svg);
+}
+
+.social2 {
+  background-image: url(./Assets/instagram.svg);
+}
+
+.social3 {
+  background-image: url(./Assets/twitter.svg);
+}
+
+.footer-items {
+  text-align: center;
+}
+
+.text-back {
+  background: linear-gradient(
+    180deg,
+    rgba(138, 156, 245, 1) 17%,
+    rgba(138, 156, 245, 0.6362920168067228) 100%
+  );
+}
+
+.title-text-style2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.color-while-hover a {
+  color: #ffffff;
+}
+
+.comment-section-published {
+  margin-right: 10px;
+}
+
+.food-information {
+  padding-left: 0;
+}
+
+.error-content img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  object-fit: cover;
+}
+
+.overlay-404 {
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.error-content-info,
+.upper-p {
+  padding-top: 100px;
+}
+
+.nd-paragraph {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.basic-info-container {
+  height: 55vh;
+}
+
+.contact-info1,
+.contact-info2,
+.contact-info3 {
+  background-color: #ffffff;
+  width: 300px;
+  height: 79px;
+  border-radius: 8px;
+}
+
+.subtext-position-card {
+  font-size: 0.8rem;
+}
+
+.name-contact-box {
+  width: 300px;
+  border-radius: 4px;
+}
+
+.contact-form-properties {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.textarea-properties-contact {
+  width: 300px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.content-img-align {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mascotapp-overlay {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mascotapp {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 1fr 1fr 120px;
+  background-image: url(./Assets/background-img-mascotapp.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title-mascotapp,
+.mascotapp-subtext {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-mascotapp {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.mascotapp-mockup {
+  z-index: 2;
+  margin: auto;
+  width: 30%;
+  height: auto;
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+}
+
+.mascotapp-subtext {
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
+}
+
+@media (max-width: 320px) {
+  nav {
+    max-width: 320px;
+  }
+
+  .subtext-food {
+    width: max-content;
+    margin: auto;
+  }
+
+  .product-detail {
+    padding: 0 10px 0 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .food-card {
+    margin-top: 30px;
+    width: 100%;
+    background: #ffffff;
+  }
+
+  .food-button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .textarea-properties {
+    width: 80%;
+    height: 150px;
+  }
+
+  .mbtn-text {
+    margin: 0 0 0 0;
+  }
+
+  .mascotapp-mockup {
+    z-index: 2;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .align-text-button {
+    display: block;
+  }
+
+  .comment-section-published {
+    margin-right: 10px;
+  }
+
+  .member-photo1,
+  .member-photo2,
+  .member-photo01,
+  .member-photo02 {
+    width: 90px;
+    height: auto;
+  }
+
+  .nd-paragraph {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
